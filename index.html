@@ -2244,9 +2244,73 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "13. Nov. 2026, 10:16 Uhr";
+const SNAP_DATE = "13. Nov. 2026, 10:43 Uhr";
 const SNAP_STATUS = "neu";
-const STUDIES = [];
+const STUDIES = [
+  {
+    journal:"Rev Esp Salud Publica", year:"2026", pmid:"43018961",
+    author:"Erazo MÁ et al.", pubdate:"12.11.2026",
+    added:"12.11.2026",
+    title:"Neugeborenenscreening in Spanien: Territoriale Disparitäten und Herausforderungen genomischer Expansion",
+    sum:"Narrative Analyse der Evolution des Neugeborenenscreenings in Spanien unter Public-Health-Perspektive, mit Fokus auf territoriale Ungleichheit, Governance und klinischen Nutzen bei zunehmender Komplexität.",
+    result:"Spanische Screening-Programme zeigen progressive Expansion getrieben durch Technologie und Dezentralisierung, jedoch signifikante territoriale Unterschiede in Umfang und Art der gescreenten Erkrankungen. Empfehlung: nationale Harmonisierung auf Basis von Evidenz, kontinuierliche Outcome-Evaluation und vorsichtige Expansion mit Priorität auf klinische Aktuabilität und Systemkapazität statt bloße Zahlenvermehrung von Erkrankungen.",
+    transfer:"Spanien, dezentralisiertes Gesundheitssystem; ähnliche Herausforderungen wie deutsches Föderalmodell mit 36 Zentren für Seltene Erkrankungen."
+  },
+  {
+    journal:"Genet Med", year:"2026", pmid:"43017846",
+    author:"Elchynski AL et al.", pubdate:"12.11.2026",
+    added:"12.11.2026",
+    title:"Personalressourcen für Pharmakogenomik-Programme weltweit: Median 9 Mitarbeiter pro Zentrum",
+    sum:"Internationale Umfrage bei 49 von 124 Gesundheitsinstitutionen auf fünf Kontinenten zur Charakterisierung von Personal, Infrastruktur und Finanzierung bestehender PGx-Programme verschiedener Implementierungsreife.",
+    result:"Median 9 Personal pro Programm (IQR 7–19, Range 2–125). Post-Launch-Programme (n=43) multidisziplinär besetzt. Heterogenes Modell ohne Dominante; häufigste Rollen: PGx-Apotheker, Arzt, Laborwissenschaftler, Informatiker. Apotheker in 86 % (37/43), davon 84 % (31/37) kompensiert. Erste umfassende globale Charakterisierung der PGx-Programm-Infrastruktur.",
+    transfer:"Globale Datensammlung; Personalmodelle relevant für Aufbau in Deutschland, wo PGx noch nicht Regelversorgung ist."
+  },
+  {
+    journal:"Prenat Diagn", year:"2026", pmid:"43013894",
+    author:"Hayeems RZ et al.", pubdate:"11.11.2026",
+    added:"11.11.2026",
+    title:"Klinischer Nutzen pränataler Exomsequenzierung: 41,7 % diagnostische Ausbeute in Kanada",
+    sum:"Bewertung des diagnostischen und klinischen Nutzens pränataler Exomsequenzierung bei 115 Schwangerschaften in Kanada mit C-GUIDE Prenatal-Messinstrument zur Erfassung der Auswirkung auf perinatales Management.",
+    result:"Diagnostische Ausbeute 41,7 % (48/115). Mittlere C-GUIDE Prenatal-Score 9,48 (SD 11,51). Positive Ergebnisse assoziiert mit Anstieg um 17,6 Punkte (p&lt;0,001) versus negativ. ≥3 Screeningkriterien vs. ein Kriterium: Anstieg um 3,8 Punkte (p&lt;0,05). Laufende Schwangerschaft zum Zeitpunkt Ergebnismitteilung: Anstieg um 2,8 Punkte (p&lt;0,001).",
+    transfer:"Kanada (Ontario), ähnliche Gesundheitssysteme und Diagnostik-Standards; pränatale Indikationen und Nutzen übertragbar."
+  },
+  {
+    journal:"Pharmacol Res", year:"2026", pmid:"42988188",
+    author:"Pandi MT et al.", pubdate:"05.11.2026",
+    added:"05.11.2026",
+    title:"Pharmakogenomik-gesteuertes Prescribing reduziert Polypharmakotoxizität und Hospitalisierung um 51 %",
+    sum:"Analyse des Einflusses von Pharmakogenomik-geleiteter Therapie auf Polypharmakokomplikationen in psychiatrischen Patienten der großen PREPARE-Kohorte mit Vergleich PGx-gelenkt vs. Kontrolle.",
+    result:"PGx-gesteuerte Gruppe: 41,95 % kombinierte Polypharmakie vs. 49,8 % Kontrolle; psychiatrische Polypharmakie 20,7 % vs. 26,1 %. Bei psychiatrischer Polypharmakie: Risiko für Hospitalisierung 49 % des Kontrollrisikos (RR 0,49; 95%-KI 0,36–0,67; p&lt;0,001). PGx ändert Wahl und Dosierung statt nur Anzahl der Medikamente.",
+    transfer:"Griechenland/Deutschland, vergleichbare Gesundheitssysteme; Implementierung in Regelversorgung relevant für Polypharmaka-Patienten."
+  },
+  {
+    journal:"Orphanet J Rare Dis", year:"2026", pmid:"42983835",
+    author:"Francisco R et al.", pubdate:"04.11.2026",
+    added:"05.11.2026",
+    title:"Patient-erlebte Erfahrungen in Sekundär- und Tertiärversorgung bei Seltenen Erkrankungen: Scoping Review mit 11 Domains",
+    sum:"Systematische Analyse von 61 Publikationen (2005–2022) zu Patientenerfahrungen bei Seltenen Erkrankungen in Sekundär-/Tertiärversorgung, Strukturierung in 11 Versorgungsdomänen und Empfehlungen für Validierung.",
+    result:"Keine einzige Messinstrument (42 Fragebogen identifiziert) deckt alle 11 Domains (Zugang, Umfassendheit, Kontinuität, Koordination, Patientenzentriertheit, Sicherheit, Selbstmanagement, Vertrauen, wahrgenommene Qualität, Diagnose/Behandlung, Serviceaspekte) ab. Keine vollständig über Seltene Erkrankungen hinweg validiert. Studien konzentriert in englischsprachigen Ländern, &lt;2 % der 6.000 bekannten Seltenen Erkrankungen abdeckend. Fünf konkrete Empfehlungen für Community-Beteiligung und RD-spezifisches Framework.",
+    transfer:"Internationale Literatur; Erkenntnisse zur Qualitätsmessung in deutschen Zentren für Seltene Erkrankungen direkt übertragbar."
+  },
+  {
+    journal:"Orphanet J Rare Dis", year:"2026", pmid:"43010030",
+    author:"Sørensen SBL et al.", pubdate:"22.10.2026",
+    added:"10.11.2026",
+    title:"MPAN-Prävalenz und Genotyp-Phänotyp-Spektrum in Dänemark: 4 Patienten identifiziert",
+    sum:"Nationale Fallidentifikation und Charakterisierung von Mitochondrial Membrane Protein-Associated Neurodegeneration (MPAN, C19orf12-Varianten) in Dänemark mit Langzeit-Follow-up.",
+    result:"MPAN-Prävalenz 1/1.500.000 in Dänemark; 4 Patienten mit biallelen C19orf12-Varianten identifiziert. Homozygote c.187 G&gt;C zeigten mildere Phänotypen und geringere Eisenablagerungen; homozygote c.32C&gt;T hatten schwere Symptome mit kognitiver Beeinträchtigung. Kontinuum eher als klassische NBIA-Klassifikation angemessen.",
+    transfer:"Dänemark, europäische Gesundheitsdokumentation; seltene Erkrankung mit Versorgungsrelevanz auch bei niedriger Prävalenz."
+  },
+  {
+    journal:"BMC Med Genomics", year:"2026", pmid:"43004392",
+    author:"Cullufi P et al.", pubdate:"11.08.2026",
+    added:"09.11.2026",
+    title:"Genom vs. Exom bei Kindern mit Seltenen Erkrankungen: Diagnostischer Ertrag in Albanien",
+    sum:"Vergleich von Genomsequenzierung (GS) und Exomsequenzierung (ES) an 72 Kindern mit verdächtigen seltenen genetischen Erkrankungen in Albanien zur Bewertung diagnostischer Ausbeute und praktischer Implementierbarkeit.",
+    result:"GS identifizierte 36,1 % diagnostische Ergebnisse (26/72), ES 22,2 % (16/72); Konkordanz in 56 Patienten (13 positive, 43 negative), Diskordanz in 16 (13 nur durch GS). Weder Verfahren war allein umfassend; Unterschiede nicht nur durch Sequenzierungstechnologie, sondern durch Probentyp, Tiefe, Laborverfahren und Analyse erklärbar.",
+    transfer:"Albanien, vergleichbare Ressourcensituation; Unterschiede in Workflow-Komponenten wichtiger als einzelne Technologie."
+  },
+];
 // === STUDIES-BLOCK-ENDE ===
 
 // Offene Foerderausschreibungen zum Thema — taeglich von scripts/radar_hinweis.py
@@ -2259,15 +2323,21 @@ const RADAR_FRISTEN = [];
 // === RADAR-BLOCK-ENDE ===
 
 // === ZULASSUNG-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const ZUL_STAND = "";
+const ZUL_STAND = "13.11.2026";
 const ZUL_EIGENE = 0;
 const ZUL_GUTACHTEN = 0;
+const ZUL_ZULASSUNG = 0;
+const ZUL_FDA = 0;
+const ZUL_DIGA = 0;
 // === ZULASSUNG-BLOCK-ENDE ===
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "13. Nov. 2026, 10:16 Uhr";
-const NEWS = [];
+const NEWS_STAND = "13.11.2026";
+const NEWS = [
+  {titel:"Erbliche Krebsrisiken und Liquid Biopsy: Med Uni Graz zur Männergesundheit", datum:"2026-11-03", url:"https://www.monitor-versorgungsforschung.de/news/erbliche-krebsrisiken-und-liquid-biopsy-med-uni-graz-zur-maennergesundheit/"},
+  {titel:"Versorgung von Frauen mit Seltenen Erkrankungen: Chiesi-Fachdialog", datum:"2026-10-26", url:"https://www.monitor-versorgungsforschung.de/news/versorgung-von-frauen-mit-seltenen-erkrankungen-chiesi-fachdialog/"},
+];
 // === NEWS-BLOCK-ENDE ===
 
 // Fremde Pressemeldungen zum Thema — taeglich von scripts/newsfeed.py
