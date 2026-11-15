@@ -2245,62 +2245,53 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "14. Nov. 2026, 05:28 Uhr";
+const SNAP_DATE = "15. Nov. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"J Community Genet", year:"2026", pmid:"43020952",
-    author:"Joy J et al.", pubdate:"13.11.2026",
-    added:"12.11.2026",
-    title:"Indien: 70–80 Mio. Seltene-Erkrankungen-Patienten, viele Waisenarzneimittel ohne Monographien in Arzneibüchern",
-    sum:"Strukturierte Übersichtsarbeit zu Prävalenz, epidemiologischer Last und pharmakopöaler Abdeckung von Waisenarzneimitteln bei Seltenen Erkrankungen in Indien unter Nutzung amtlicher indischer Quellen, Rare-Disease-Register und PubMed/Embase bis Juni 2026.",
-    result:"Etwa 450 Seltene Erkrankungen in Indien registriert, überwiegend genetisch-metabolisch-immunologisch. Geschätztes Krankheitslastgebiet: 70–80 Mio. Betroffene. Viele symptomatische Therapien in Indian Pharmacopoeia (IP 2026), USP-NF und European Pharmacopoeia verzeichnet, aber mehrere Waisenarzneimittel (Agalsidase alfa, Asfotase alfa, Ivacaftor, Carglumsäure, Alglucosidase alfa) fehlten in ein oder mehr großen Arzneibüchern. Regulatorische Harmonisierung und Registererweiterung als zentrale Handlungsfelder identifiziert.",
-    transfer:"Indien; zeigt globale Lücken in Arzneibuchstandards für Seltene Erkrankungen, relevant für deutsche Registerpolitik."
+    journal:"J Genet Couns", year:"2026", pmid:"42973442",
+    author:"Brandon H et al.", pubdate:"Dez. 2026",
+    added:"03.11.2026",
+    title:"Genetische Beratung in Großbritannien: Ausbildung wandelt sich zu Modularität",
+    sum:"Reflexive Analyse der Entwicklung genetischer Beratung und Ausbildung in UK 2016-2026 durch Stakeholder der Association of Genetic Nurses and Counsellors.",
+    result:"Ausbildung hat sich von 2-jährigem MSc (1992) zu zwei 3-Jahres-Programmen entwickelt: hybrid-MSc mit klinischem Praktikum und Scientific Training Programme (STP) mit akademischem MSc + Genomic Medicine Service-Integration. Neue Zertifizierungswege: AHCS, HCPC, GCRAB. Online-Lernplattform (Genomic Training Academy) eingeführt. Treiber: technologischer Wandel, Gesundheitspolitik, Personalkapazität, Lernerpräferenzen. Neue Formate wie Apprenticeships geplant.",
+    transfer:"UK-Modell; deutsche Beratungsausbildung (2-jährig, Diplom) weniger modular; Vergleichbarkeit eingeschränkt."
   },
   {
-    journal:"Neurology", year:"2026", pmid:"43013792",
-    author:"Yau UTE et al.", pubdate:"08.12.2026",
-    added:"11.11.2026",
-    title:"Neugeborenenscreening für Muskeldystrophie Duchenne: USA und Piloten zeigen 17% Attritionsrate, 100% PPV mit Genomanalyse",
-    sum:"Übersichtsarbeit zu aktuellen Methoden des Neugeborenenscreenings für Duchenne-Muskeldystrophie (DMD) mittels Creatinkinase (CK-MM) und Genomsequenzierung, gestützt auf 7 Pilotprogramme aus China, Taiwan und USA seit 2020.",
-    result:"Pilotprogramme zeigten: Mehrfach-Screening nach initial erhöhtem CK-MM verbesserte den positiv-prädiktiven Wert (PPV) gegenüber Einfach-Screening. Einbau von DMD-Genomanalyse bei persistierend erhöhtem CK-MM erreichte 100% PPV, führte aber zu 17,1% Attritionsrate (108/632) bei erforderlicher Wiedereinsammlung von Trockenblutproben. Optimales Timing für Therapiestart bleibt unklar; multidisziplinäre Betreuung (Genetik, psychosoziale Unterstützung, Bildungsressourcen) empfohlen.",
-    transfer:"USA und international; Screening-Algorithmen ab Dezember 2025 in US-Empfehlungen enthalten, auf europäische Strukturen bedingt übertragbar."
+    journal:"J Genet Couns", year:"2026", pmid:"43031244",
+    author:"Goosen M et al.", pubdate:"Dez. 2026",
+    added:"14.11.2026",
+    title:"Geschwister von Kindern mit Seltenen Erkrankungen: psychosoziale Belastung und Unterstützungslücken",
+    sum:"Qualitative Studie mit reflexiver Thematic Analysis, acht Geschwister (11-19 Jahre) von Patienten mit Seltenen Erkrankungen in Kapstadt, Südafrika; halbstrukturierte Interviews zu Erleben, Herausforderungen und Familienorganisation.",
+    result:"Vier zentrale Themen: (1) Übernahme von Nebenpflegerollen, (2) Sinnfindung bei Seltenen Erkrankungen, (3) Beziehungsgestaltung unter der Erkrankung, (4) Bewältigung emotionaler Auswirkungen. Geschwister fungieren als adjunkte Pflegende, erhalten aber unzureichend altersgerechte Information und Unterstützung durch Eltern und Peers. Empfehlung: Interventionsentwicklung für Geschwister und Familien erforderlich.",
+    transfer:"Südafrika; strukturelle und psychosoziale Erkenntnisse für Versorgung in Settings mit begrenzter Ressourcenausstattung relevant."
   },
   {
-    journal:"Sci Transl Med", year:"2026", pmid:"43013680",
-    author:"Haddad A et al.", pubdate:"11.11.2026",
-    added:"11.11.2026",
-    title:"USA: 100% der 100.000 Teilnehmer tragen Pharmakogen-Varianten, 24,4% mit therapeutischer Relevanz und aktueller Medikation",
-    sum:"Genomweite Sequenzierung und elektronische Gesundheitsakten von knapp 100.000 All-of-Us-Teilnehmern zur Bestimmung von Häufigkeiten in 16 Pharmakogenen und vorhersagbaren Phänotypen sowie Medikamentenexpositionen.",
-    result:"100% der Teilnehmer trugen mindestens eine Variante in den 16 untersuchten Pharmakogenen; 99,5% hatten einen Phänotyp mit Verschreibungsempfehlungen. Klinische Bedeutung: 24,4% der Teilnehmer hatten sowohl einen aktionablen Phänotyp als auch Prior-Exposition gegenüber einer betroffenen Medikation mit Verschreibungsleitlinie. Tausende zuvor unerkannte Varianten und hunderte Allele identifiziert, besonders in Amerika und afrikanischen Populationen unterrepräsentiert.",
-    transfer:"USA; Populationsdiversität für Pharmakogenomik-Studien kritisch; begrenzt auf US-Versorgungskontext übertragbar."
+    journal:"Acta Obstet Gynecol Scand", year:"2026", pmid:"43025849",
+    author:"Westenius E et al.", pubdate:"13.11.2026",
+    added:"13.11.2026",
+    title:"Genomsequenzierung bei Pränatalbefunden: 23,4% diagnostischer Ertrag in Schweden",
+    sum:"Prospektive und retrospektive Analyse von 218 Feten mit verschiedenen pränatalen Fehlbildungen, untersucht mit Trio-Genomsequenzierung an der Karolinska-Klinik Stockholm.",
+    result:"Klinische Genomsequenzierung identifizierte diagnostische Varianten in 22,5% der Fälle (49/218), Forschungsanalyse erhöhte den Ertrag auf 23,4% (51/218). Höchster Ertrag bei Multisystemerkrankungen (36,2%), mittler bei ZNS-Fehlbildungen (25,0%). Turnaroundzeit für laufende Schwangerschaften vor Woche 21+6: 12,5±5 Tage. Von 51 Diagnosen waren 39,2% rezidivrisikobehaftet. Schwangerschaften mit diagnostischen Ergebnissen wurden signifikant häufiger beendet (p=0,012).",
+    transfer:"Skandinavisches System mit etablierter Trio-Sequenzierung; Deutschland hat weder Regelleistung noch vergleichbare Kapazität."
   },
   {
-    journal:"Mol Genet Metab", year:"2026", pmid:"43014040",
-    author:"Kinoshita Y et al.", pubdate:"05.11.2026",
-    added:"11.11.2026",
-    title:"Japan: Neugeborenenscreening für Gaucher-Erkrankung identifizierte 7 Fälle, Langzeitklassifikation und Enzymersatztherapie essentiell",
-    sum:"Retrospektive Auswertung regionaler Neugeborenenscreenings für Gaucher-Erkrankung (GD) in zwei japanischen Präfekturen 2016–2025; Analyse klinischer Merkmale, Genotypen, Therapie und Langzeitausgänge.",
-    result:"Von 341.029 gescreenten Neugeborenen wurden 17 (0,005%) zurückgerufen, 7 mit GD diagnostiziert. Nach Langzeitfollow-up: 1 GD1-Patient stabil, 3 GD2-Patienten verstorben trotz Therapie, 2 GD3-Patienten mit Verbesserung hämatologischer/viszeraler Manifestationen unter Enzymersatztherapie, aber horizontale Sakkadenstörung. Ein Patient wurde von GD3 zu GD2 reklassifiziert, womit die prognostische Bedeutung von Langzeitbeobachtung demonstriert wurde.",
-    transfer:"Japan, aber Langzeitdaten zu neuronopathischen Formen relevant für internationale Zentren-Standards."
+    journal:"Med Sci (Paris)", year:"2026", pmid:"42969642",
+    author:"Sanlaville D et al.", pubdate:"02.11.2026",
+    added:"02.11.2026",
+    title:"Zufallsbefunde in Genomdiagnostik: Frankreich und Québec im Vergleich",
+    sum:"Qualitative Studie mit franco-québécischer Kooperation (Juristen, Genetiker, Soziologen, Bioethiker), analysiert, wie Terminologiewahl ('inzidentiell', 'sekundär', 'zufällig') medizinische Praxis, Datenverwaltung und Patientenrechte beeinflusst.",
+    result:"Zentrale Erkenntnisse: Terminologische Wahl prägt Zustimmung, Ergebnismitteilung und Patientenbetreuung direkt. Frankreich und Québec unterscheiden sich in rechtlicher Struktur und Konsent-Anforderungen erheblich. Hauptempfehlung: klare, international harmonisierte Definitionen und Frameworks für Ethik und Consent erforderlich.",
+    transfer:"Frankreich europäisch übertragbar; Québec zeigt kanadisches Vergleichssystem; für Deutschland relevant wegen GenDG-Beratungspflicht."
   },
   {
-    journal:"BMC Pediatr", year:"2026", pmid:"42983290",
-    author:"Bon SBB et al.", pubdate:"06.08.2026",
-    added:"04.11.2026",
-    title:"Niederlande: Eltern und Kinder wollen frühe Beteiligung, direkte Beratung, Reconsent bei Volljährigkeit",
-    sum:"Befragung von 335 Eltern und 49 Adoleszenten (12–18 Jahre) zu Erfahrungen und Wünschen bezüglich Keimbahnsequenzierung in pädiatrischer Onkologie an nationalem Zentrum.",
-    result:"89% der Eltern befürworteten Recontacting durch Kliniken bei neuen genetischen Erkenntnissen; 73% forderten vorherige Zustimmung. Etwa 90% würden dem Recontacting zustimmen, wenn persönlich gefragt. Fast 75% der Eltern vertraten, dass Patienten bei Volljährigkeit erneut zustimmen sollten. 80% der Adoleszenten und 58% der Eltern gaben an, schriftliche Materialien nicht vollständig gelesen zu haben; direkte Beratung wurde von beiden Gruppen deutlich höher bewertet.",
-    transfer:"Niederlande, vergleichbares europäisches System; Beratungspräferenzen gelten für deutsche Gendiagnostik."
-  },
-  {
-    journal:"Orphanet J Rare Dis", year:"2026", pmid:"42983542",
-    author:"Sultan I et al.", pubdate:"05.08.2026",
-    added:"05.11.2026",
-    title:"Frankreich: 53% der Waisenarzneimittel erstattet, Median 505 Tage bis Kostenübernahme",
-    sum:"Die Studie analysierte 51 Zulassungen von Waisenarzneimitteln in Frankreich 2021–2024 und verglich Erstattungsstatus, Zeitverzögerungen und Preise zwischen pädiatrischen und erwachsenen Indikationen.",
-    result:"Nur 53% der Indikationen waren am 1. April 2025 in Frankreich erstattet (pädiatrisch 57%, Erwachsene 48%). Der mediane Zeitraum von Zulassung bis Erstattung betrug 505 Tage. Frankreich erzielte nach Deutschland die zweithöchste Erstattungsquote der fünf größten europäischen Märkte (80%), doch Kinder hatten Schwierigkeiten: vier Mal weniger pädiatrische als erwachsene Indikationen in der Stichprobe.",
-    transfer:"Französisches Gesundheitssystem dokumentiert Verzögerungen in Erstattungsverfahren, die auf deutsches AMNOG-System übertragbar."
+    journal:"Orphanet J Rare Dis", year:"2026", pmid:"42963554",
+    author:"Unterberger U et al.", pubdate:"30.10.2026",
+    added:"31.10.2026",
+    title:"Klinische Prüfungen zu Seltenen Erkrankungen in Österreich: 73 neue Studien 2024",
+    sum:"Systematische Auswertung klinischer Prüfungen und Beobachtungsstudien für Seltene Erkrankungen in Österreich 2011-2021 aus Registern (EU Clinical Trials Register, ClinicalTrials.gov, German Clinical Trials Register).",
+    result:"Jährliche Initiierung von Studien zu Seltenen Erkrankungen stieg von 21 (2015) auf 73 (2024). Hauptindikationen: seltene Krebserkrankungen, seltene Autoimmun- und autoinflammatorische Erkrankungen. Größtes Wachstum bei monoklonalen Antikörpern; kleine Moleküle insgesamt häufigster Ansatz. Advanced Therapy Medicinal Products in Studien noch selten im Vergleich.",
+    transfer:"Österreich, vergleichbares Sozialversicherungssystem; Daten für DACH-Raum relevant."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2325,7 +2316,7 @@ const ZUL_DIGA = 0;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "14.11.2026";
+const NEWS_STAND = "15.11.2026";
 const NEWS = [
   {titel:"Erbliche Krebsrisiken und Liquid Biopsy: Med Uni Graz zur Männergesundheit", datum:"2026-11-03", url:"https://www.monitor-versorgungsforschung.de/news/erbliche-krebsrisiken-und-liquid-biopsy-med-uni-graz-zur-maennergesundheit/"},
   {titel:"Versorgung von Frauen mit Seltenen Erkrankungen: Chiesi-Fachdialog", datum:"2026-10-26", url:"https://www.monitor-versorgungsforschung.de/news/versorgung-von-frauen-mit-seltenen-erkrankungen-chiesi-fachdialog/"},
