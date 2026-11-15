@@ -2245,18 +2245,9 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "15. Nov. 2026, 05:01 Uhr";
+const SNAP_DATE = "15. Nov. 2026, 05:27 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
-  {
-    journal:"J Genet Couns", year:"2026", pmid:"42973442",
-    author:"Brandon H et al.", pubdate:"Dez. 2026",
-    added:"03.11.2026",
-    title:"Genetische Beratung in Großbritannien: Ausbildung wandelt sich zu Modularität",
-    sum:"Reflexive Analyse der Entwicklung genetischer Beratung und Ausbildung in UK 2016-2026 durch Stakeholder der Association of Genetic Nurses and Counsellors.",
-    result:"Ausbildung hat sich von 2-jährigem MSc (1992) zu zwei 3-Jahres-Programmen entwickelt: hybrid-MSc mit klinischem Praktikum und Scientific Training Programme (STP) mit akademischem MSc + Genomic Medicine Service-Integration. Neue Zertifizierungswege: AHCS, HCPC, GCRAB. Online-Lernplattform (Genomic Training Academy) eingeführt. Treiber: technologischer Wandel, Gesundheitspolitik, Personalkapazität, Lernerpräferenzen. Neue Formate wie Apprenticeships geplant.",
-    transfer:"UK-Modell; deutsche Beratungsausbildung (2-jährig, Diplom) weniger modular; Vergleichbarkeit eingeschränkt."
-  },
   {
     journal:"J Genet Couns", year:"2026", pmid:"43031244",
     author:"Goosen M et al.", pubdate:"Dez. 2026",
@@ -2276,6 +2267,15 @@ const STUDIES = [
     transfer:"Skandinavisches System mit etablierter Trio-Sequenzierung; Deutschland hat weder Regelleistung noch vergleichbare Kapazität."
   },
   {
+    journal:"J Genet Couns", year:"2026", pmid:"42973442",
+    author:"Brandon H et al.", pubdate:"Dez. 2026",
+    added:"03.11.2026",
+    title:"Genetische Beratung in Großbritannien: Ausbildung wandelt sich zu Modularität",
+    sum:"Reflexive Analyse der Entwicklung genetischer Beratung und Ausbildung in UK 2016-2026 durch Stakeholder der Association of Genetic Nurses and Counsellors.",
+    result:"Ausbildung hat sich von 2-jährigem MSc (1992) zu zwei 3-Jahres-Programmen entwickelt: hybrid-MSc mit klinischem Praktikum und Scientific Training Programme (STP) mit akademischem MSc + Genomic Medicine Service-Integration. Neue Zertifizierungswege: AHCS, HCPC, GCRAB. Online-Lernplattform (Genomic Training Academy) eingeführt. Treiber: technologischer Wandel, Gesundheitspolitik, Personalkapazität, Lernerpräferenzen. Neue Formate wie Apprenticeships geplant.",
+    transfer:"UK-Modell; deutsche Beratungsausbildung (2-jährig, Diplom) weniger modular; Vergleichbarkeit eingeschränkt."
+  },
+  {
     journal:"Med Sci (Paris)", year:"2026", pmid:"42969642",
     author:"Sanlaville D et al.", pubdate:"02.11.2026",
     added:"02.11.2026",
@@ -2293,6 +2293,15 @@ const STUDIES = [
     result:"Jährliche Initiierung von Studien zu Seltenen Erkrankungen stieg von 21 (2015) auf 73 (2024). Hauptindikationen: seltene Krebserkrankungen, seltene Autoimmun- und autoinflammatorische Erkrankungen. Größtes Wachstum bei monoklonalen Antikörpern; kleine Moleküle insgesamt häufigster Ansatz. Advanced Therapy Medicinal Products in Studien noch selten im Vergleich.",
     transfer:"Österreich, vergleichbares Sozialversicherungssystem; Daten für DACH-Raum relevant."
   },
+  {
+    journal:"Gene Ther", year:"2026", pmid:"43026208",
+    author:"Han R et al.", pubdate:"13.11.2026",
+    added:"13.11.2026",
+    title:"Gentherapien für seltene Erkrankungen: 30 zugelassene Produkte, 646 von 1464 Studien",
+    sum:"Registry-basierte Analyse der FDA-Datenbank und ClinicalTrials.gov mit Oktober-2025-Cutoff zur Kartierung von Gentherapie-Entwicklungen für seltene Erkrankungen.",
+    result:"Von 1464 registrierten Studien adressierten 646 (44,1%) 175 verschiedene Seltene Erkrankungen; 30 Gentherapie-Produkte wurden zugelassen, davon 24 (80%) mit mindestens einer Seltenen-Erkrankungen-Indikation. Hämophilie A und B, Retinitis pigmentosa, Duchenne-Muskeldystrophie und Sichelzellkrankheit waren die häufigsten Indikationen. 84,7% der Studien waren interventionell, 63,2% frühe Phase I/II, 62,2% erlaubten pädiatrische Einschreibung. USA war in 63,5% der Studien genannt. Zwischen 2015 und 2024 stieg die jährliche Neuinitiierung seltener Erkrankungsstudien von 21 auf 73.",
+    transfer:"Globale Datenbasis, nicht Deutschland-spezifisch; zeigt internationale Versorgungslandschaft."
+  },
 ];
 // === STUDIES-BLOCK-ENDE ===
 
@@ -2306,7 +2315,7 @@ const RADAR_FRISTEN = [];
 // === RADAR-BLOCK-ENDE ===
 
 // === ZULASSUNG-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const ZUL_STAND = "14.11.2026";
+const ZUL_STAND = "15.11.2026";
 const ZUL_EIGENE = 0;
 const ZUL_GUTACHTEN = 0;
 const ZUL_ZULASSUNG = 0;
