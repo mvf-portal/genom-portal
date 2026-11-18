@@ -2261,62 +2261,17 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "17. Nov. 2026, 05:01 Uhr";
+const SNAP_DATE = "18. Nov. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Genome Med", year:"2026", pmid:"43035809",
-    author:"Aminbeidokhti M et al.", pubdate:"16.11.2026",
-    added:"15.11.2026",
-    title:"Genomsequenzierung bei ungeklärtem wiederholtem Schwangerschaftsverlust: 15,3 % Diagnosen",
-    sum:"Genomsequenzierung an 118 Familien mit euploidem wiederholtem Schwangerschaftsverlust ohne bekannte Ursache identifizierte pathogene oder wahrscheinlich pathogene Varianten.",
-    result:"In 18 Familien (15,3 %) wurden pathogene/wahrscheinlich pathogene Varianten in 17 Genen gefunden; 80 % davon vererbt. 13 Gene waren zuvor nur mit perinataler Lethali­tät assoziiert, 15 sind neue Kandidatengene. Genomik erweitert das Diagnostik­spektrum jenseits Karyotyp und chromosomaler Mikroarray-Analyse.",
-    transfer:"USA – methodologisch auf deutsche Praxen übertragbar, aber Kostenfrage offen"
-  },
-  {
-    journal:"PLoS One", year:"2026", pmid:"43038287",
-    author:"Bao Y et al.", pubdate:"16.11.2026",
-    added:"16.11.2026",
-    title:"Qualitätsmängel bei G6PD-Gendiagnostik: 49 Varianten-Reporting-Fehler",
-    sum:"Externes Ringversuch-Programm zur genetischen G6PD-Diagnostik in 23 Laboren bewertete Accuracy und Varianten-Reporting nach standardisierten Kriterien.",
-    result:"14 von 23 Laboren (60,87 %) erzielen volle Punktzahl; 49 Varianten-Reporting-Fehler identifiziert. Alle Labore detektierten pathogene Mutationen, aber Reporting-Standards und Varianten-Beschreibung zeigen erhebliche Mängel.",
-    transfer:"China – zeigt internationales Problem der Standardisierung; Modell für europäische EQA-Programme übertragbar"
-  },
-  {
-    journal:"Clin Pharmacol Ther", year:"2026", pmid:"43023637",
-    author:"Chawla A et al.", pubdate:"13.11.2026",
-    added:"13.11.2026",
-    title:"Asparaginase-Toxizität bei Kindern: HLA und PNPLA3 als validierte Pharmakogenom-Marker",
-    sum:"Systematische Übersichtsarbeit von 40 Studien zu genetischen Assoziationen mit Asparaginase-Toxizitäten (Überempfindlichkeit, Pankreatitis, Thrombose, Hepatotoxizität) in der pädiatrischen Onkologie.",
-    result:"Stärkste Evidenz für HLA-Klasse-II-Allele bei Hypersensitivität, besonders HLA-DRB1*07:01-DQA1*02:01-DQB1*02:02-Haplotyp (aber Unterschiede nach Abstammung). PNPLA3 rs738409 für Hepatotoxizität identifiziert und repliziert. Pankreatitis und Thrombose heterogen mit limitierter Validierung.",
-    transfer:"Internationale Evidenz, direkt auf deutsche pädiatrisch-onkologische Praxen anwendbar; HLA/PN3A3-Testung standardisierbar"
-  },
-  {
-    journal:"Front Pharmacol", year:"2026", pmid:"43031977",
-    author:"Arbitrio M et al.", pubdate:"30.10.2026",
-    added:"14.11.2026",
-    title:"PPI-Antwort bei Kindern mit Ösophagitis: CHST3-Genotyp und Allergie-Phänotyp relevant",
-    sum:"58 pädiatrische Patienten mit Ösophagitis (17 PPI-Responder, 41 Non-Responder) wurden mit DMET-Plus-Microarray für 231 ADME-Gene genotypisiert; Daten wurden maschinell integriert.",
-    result:"CHST3 rs4148944 G/G zeigte stärkste Nominale Assoziation mit PPI-Response (p &lt;0,0064). Kombinatorische Muster mit CHST11, SULT1A2/A3, NR1I3 und Nahrungsmittelallergie verbesserte Patient-Stratifizierung, obwohl einzelne Varianten nicht signifikant waren.",
-    transfer:"Italien – Proof-of-Concept; Validierung in größeren, diversen Kohorten erforderlich vor klinischer Implementierung"
-  },
-  {
-    journal:"J Clin Med", year:"2026", pmid:"43030509",
-    author:"Gámez JM et al.", pubdate:"27.10.2026",
-    added:"14.11.2026",
-    title:"Kardiovaskuläres Screening in Deutschland: Geschlechts-spezifische Checklisten statt pauschale Risiko-Scores",
-    sum:"Expertenrahmen mit strukturierten, geschlechtsstratifizierten klinischen Checklisten für kardiovaskuläre Risikoeinschätzung jenseits konventioneller 10-Jahre-Scores; Literaturanalyse 2020–2026.",
-    result:"Frauen: Präeklampsie, Gestationsdiabetes, Frühgeburt, PCOS, Endometriose, frühe Menopause erhöhen Vaskulärrisiko. Männer: ED, Hypogonadismus, Androgen-Entzug, Alopecia androgenetica sind frühe Risikindikatoren. Biomarker (Lp(a) ≥50 mg/dL, ApoB &gt;100, hs-CRP ≥2 mg/L) verfeinern Stratifizierung; Checklisten ergänzen SCORE2/PREVENT/QRISK3.",
-    transfer:"Deutsche/europäische Kardiologie-Leitlinien; unmittelbar implementierbar in Primär- und Fachversorgung"
-  },
-  {
-    journal:"Ther Adv Hematol", year:"2026", pmid:"43036429",
-    author:"Szukalski Ł et al.", pubdate:"01.10.2026",
-    added:"16.11.2026",
-    title:"Pegcetacoplan bei PNH: 76,9 % Transfusionsunabhängigkeit trotz C5i-Versagen",
-    sum:"Retrospektive Kohortenstudie aus Mittel- und Osteuropa mit 26 PNH-Patienten, die auf C5-Inhibitoren nicht ansprachen und zu Pegcetacoplan wechselten; Datenerfassung über 11,8 Monate.",
-    result:"Hämoglobin-Anstieg 3,24 g/dL, Normalisierung von Retikulozytose und Bilirubinämie, Transfusionsunabhängigkeit bei 76,9 %. Durchbruchhämolyse erfolgreich durch Dosisanpassung oder zusätzliche C5i kontrolliert; keine Therapieabbrüche.",
-    transfer:"Mittel-/Osteuropa – europäisches Versorgungssetting, aber externe Validierung in Deutschland erforderlich"
+    journal:"Clin Kidney J", year:"2026", pmid:"43041736",
+    author:"Bergmann C et al.", pubdate:"01.10.2026",
+    added:"17.11.2026",
+    title:"Zehn Tipps zur Integration genetischer Tests in die Nephrologie",
+    sum:"Expertenleitfaden zu genetischen Tests bei monogenen Nierenerkrankungen mit Fokus auf diagnostischen Nutzen, Risikobeurteilung und Therapieoptimierung.",
+    result:"Der Beitrag betont, dass Gendiagnostik bei Nierenerkrankungen klinisch zunehmend wertvoll ist, da sie Diagnosen validiert oder korrigiert und zu optimierter Risikobeurteilung, verbessertem Management und gezielten Therapien führt. Spezifische Zahlen werden nicht genannt; es handelt sich um einen systematischen Ratgeber für klinische Praxis.",
+    transfer:"Deutsche Nephrologie, vergleichbare Versorgungsstrukturen und Dokumentationspflichten"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2341,7 +2296,7 @@ const ZUL_DIGA = 0;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "17.11.2026";
+const NEWS_STAND = "18.11.2026";
 const NEWS = [
   {titel:"Erbliche Krebsrisiken und Liquid Biopsy: Med Uni Graz zur Männergesundheit", datum:"2026-11-03", url:"https://www.monitor-versorgungsforschung.de/news/erbliche-krebsrisiken-und-liquid-biopsy-med-uni-graz-zur-maennergesundheit/"},
   {titel:"Versorgung von Frauen mit Seltenen Erkrankungen: Chiesi-Fachdialog", datum:"2026-10-26", url:"https://www.monitor-versorgungsforschung.de/news/versorgung-von-frauen-mit-seltenen-erkrankungen-chiesi-fachdialog/"},
