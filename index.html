@@ -2261,71 +2261,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "19. Nov. 2026, 05:01 Uhr";
+const SNAP_DATE = "20. Nov. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"J Genet Couns", year:"2026", pmid:"43040880",
-    author:"Massie J et al.", pubdate:"Dez. 2026",
-    added:"17.11.2026",
-    title:"Mukoviszidose-Beratung: Komplexe Konstellation (c.1521-1523del + IVS8-5T) erfordert CFTR-Biologie-Verständnis",
-    sum:"Fallbasierte Empfehlung zur genetischen Beratung bei komplexer CF-Träger-Konstellation (ein Partner Krankheitsvariante, anderer c.1210-12T[5]/IVS8-5T-Variante) basierend auf CFTR-Biologie und klinischen Daten.",
-    result:"Die c.1210-12T[5]-Variante (IVS8-5T) fördert Exon-8-Skipping und reduziert funktionelle CFTR-mRNA; bei trans-Kombination mit pathogener Variante ist Genotyp-Phänotyp-Korrelation schlecht vorhersagbar. Autoren empfehlen Beratungsansatz, der CFTR-Biologie, verfügbare klinische Daten und Unsicherheiten transparent integriert.",
-    transfer:"Australien/Neuseeland, aber CFTR-Varianten-Interpretation international relevant; für Deutschland zentral bei sequenzbasierter Diagnostik."
+    journal:"Med Oncol", year:"2026", pmid:"43055831",
+    author:"de Jong CL et al.", pubdate:"19.11.2026",
+    added:"19.11.2026",
+    title:"Genetisches Testen bei metastasierendem Brustkrebs: Patienten-Perspektive aus den Niederlanden",
+    sum:"Qualitative Fokusgruppen-Studie mit 14 niederländischen Patienten mit Stadium-IV-Brustkrebs zur Wahrnehmung von genetischen Tests, Beratung und Timing.",
+    result:"Patienten wünschen sich proaktives Testangebot durch Onkologen (nicht nur Genetiker), bevorzugen personalisiertes Timing, klare Information, Nachbetreuung; emotionale Belastung war KEIN genanntes Hindernis; Test wurde oft Patienten-initiiert, nicht konsistent angeboten.",
+    transfer:"Niederlande, vergleichbares Versichertensystem; zeigt Implementierungsgap zwischen Leitlinie und Praxis auf."
   },
   {
-    journal:"Genet Med", year:"2026", pmid:"43048863",
-    author:"Rock MJ", pubdate:"18.11.2026",
+    journal:"J Gen Fam Med", year:"2026", pmid:"43054666",
+    author:"Narumoto K et al.", pubdate:"18.11.2026",
+    added:"19.11.2026",
+    title:"Japanisches Risiko-Assessment-System für HBOC und Lynch-Syndrom in der Primärversorgung",
+    sum:"Entwicklung und Validierung eines digitalen Tools (JCRAS-PC) für Hausärzte zur Risikoeinschätzung heredidärer Brust-/Ovarialkarzinome und Lynch-Syndrom mit Vergleich zu genetischen Fachleuten.",
+    result:"Perfekte Übereinstimmung mit genetischen Fachleuten in allen 35 Testfällen (kappa = 1,00); Tool verbesserte Ärzte-Wissen und -Haltung zur genetischen Onkologie; Usability durch Nutzerfeedback validiert.",
+    transfer:"Japan, nicht übertragbar; zeigt aber Potenzial von digitalem ScreeningTool zur Kapazitätserweiterung bei Beratungsbedarf."
+  },
+  {
+    journal:"J Cardiovasc Med (Hagerstown)", year:"2026", pmid:"43056209",
+    author:"Grasso M et al.", pubdate:"01.11.2026",
+    added:"19.11.2026",
+    title:"ESC-Leitlinie zu genetischem Testen bei Kardiomyopathien: Konsens italienischer Experten",
+    sum:"Italienische Fachgruppe hat konsensuelle Stellungnahmen zur Implementierung der 2023-ESC-Klasse-I-Empfehlung für genetisches Testen bei Kardiomyopathien erarbeitet.",
+    result:"Erstmals formal integrierte ESC-Leitlinie macht genetische Diagnostik zur Class I, Level of Evidence B für alle Kardiomyopathie-Patienten und ihre Familien; Konsens zu Varianten-Klassifikation, genetischer Beratung, reproduktiver Prävention und Qualitätsstandards hergestellt.",
+    transfer:"Italien, aber europäische Leitlinie; deutsches Gendiagnostikgesetz fordert ebenso Beratung vor Testung."
+  },
+  {
+    journal:"Mol Genet Metab", year:"2026", pmid:"43050731",
+    author:"Blau N et al.", pubdate:"14.11.2026",
     added:"18.11.2026",
-    title:"Mukoviszidose-Neugeborenenscreening: NGS erreicht 100% diagnostische Sensitivität",
-    sum:"Übersichtsarbeit zur technologischen Evolution des CF-Screenings von IRT-Einzeltests über begrenzte CFTR-Panel bis zur kompletten Gensequenzierung für ethnisch gerechte Früherkennung.",
-    result:"NGS wird 2025 von der US Cystic Fibrosis Foundation für CF-Neugeborenenscreening empfohlen und ermöglicht erstmals ethnisch gerechte Diagnostik aller CFTR-Varianten unabhängig von Rasse/Ethnie; rasante Adoption in US-Bundesstaaten.",
-    transfer:"USA-Empfehlung, aber technologie-agnostisch übertragbar; Deutschland nutzt hier selektive Panel."
+    title:"Phenylalanin-Stoffwechsel weltweit: Genotyp-Phänotyp-Struktur und Screening-Ergebnisse",
+    sum:"International angelegte Genotyp-Phänotyp-Datenbank von 24.718 PKU-Patienten mit 4.867 verschiedenen PAH-Genotypen zur geographischen Kartierung und Screeningergebnissen.",
+    result:"Klassische PKU 58,3%, milde PKU 22,2%, milde Hyperphenylalaninämie 18,4% der Fälle; regionale Häufungen in Iran, Russland, Südasien, Nahost; globale Geburtsprevalenz geschätzt 0,84 pro 10.000 Lebendgeburten (1:11.905); Screening-Vergleichbarkeit durch unterschiedliche Coverage und Schwellen begrenzt.",
+    transfer:"Internationale Datenbank, inkl. Deutschland; zeigt Screeningheterogenität auf, relevant für Neugeborenenscreening-Standards."
   },
   {
-    journal:"Med Sci (Paris)", year:"2026", pmid:"43049493",
-    author:"Cintas P et al.", pubdate:"18.11.2026",
-    added:"18.11.2026",
-    title:"Spinale Muskelatrophie: Patientenerfahrungs-Projekt an 3 französischen Referenzzentren zeigt Implementierbarkeit",
-    sum:"Pilotprojekt zur systematischen Erfassung der Patientenerfahrung von Erwachsenen mit SMA an drei CRMNM-Zentren (Lille, Nantes, Toulouse) mit anschließender iterativer Lösungsentwicklung.",
-    result:"Initiative initiiert Ende 2023 mit institutioneller Biogen-Unterstützung; Prozess für Erfassung der Patientenerfahrung etabliert; iterative Lösungsentwicklung in Zusammenarbeit mit Medizinerteams und Qualitätsabteilungen unter Berücksichtigung spezifischer Institutionsmerkmale. Ziel: Verbesserung des erlebten Patientenergebnisses im stationären Versorgungspfad.",
-    transfer:"Frankreich, vergleichbare Zentrumsstruktur; in Deutschland 36 Zentren für Seltene Erkrankungen, aber kein strukturiertes Patientenerfahrungs-Programm etabliert."
+    journal:"Front Immunol", year:"2026", pmid:"42973604",
+    author:"Biancone L et al.", pubdate:"19.10.2026",
+    added:"03.11.2026",
+    title:"C3-Glomerulopathie in Italien: Epidemiologie, Charakteristika und Management",
+    sum:"Delphi-Konsensprozess unter 17 italienischen Nephrologen mit Expertise in dieser Ultra-Rarerkrankung der Niere zur Klärung von Epidemiologie und Behandlung.",
+    result:"Konsens auf 60–90 Neuerkrankungen/Jahr und ca. 2.700 Prävalenzfälle in Italien (82–94% Übereinstimmung); stabiler GFR und Proteinurie-Verbesserung als Hauptzielparameter; kritisches Manko: Mangel an spezifischen Therapien und schneller Diagnose.",
+    transfer:"Italienische Expertise zu europäischer Rarerkrankung; zeigt strukturelles Manko (kein diagnostisches Netzwerk, keine Therapie) auf."
   },
   {
-    journal:"J Pediatr Gastroenterol Nutr", year:"2026", pmid:"43042718",
-    author:"Lakhani A et al.", pubdate:"17.11.2026",
-    added:"17.11.2026",
-    title:"Neonatale Cholestase: Exom/Genom schlägt Panel mit 33% vs. 10% diagnostischem Ertrag",
-    sum:"Retrospektive Studie zum diagnostischen Ertrag verschiedener Gentest-Strategien bei neonataler Cholestase im NICU (174 Patienten, 10 Jahre Daten).",
-    result:"Diagnostischer Ertrag: Microarray 5% (3/54), zielgerichtetes Panel 10% (12/125), Exom/Genomsequenzierung 33% (23/70). Sieben Patienten mit nicht-diagnostischem Panel wurden durch ES/GS geklärt. ES/GS-Patienten waren jünger bei Hepatologie-Konsultation, hatten höhere Peak-Bilirubinwerte.",
-    transfer:"Monozentrische US-Daten, aber Priorität für ES/GS methodisch übertragbar; Deutschland nutzt hier Modellvorhaben SGB V."
-  },
-  {
-    journal:"Eur J Hum Genet", year:"2026", pmid:"43045748",
-    author:"Kirby M et al.", pubdate:"17.11.2026",
-    added:"17.11.2026",
-    title:"Elektronische Ergebnisvergabe von Gentests: 79% Zufriedenheit, 42% bevorzugen es",
-    sum:"Prospektive Telefonbefragung von Patienten eine Woche nach direkter elektronischer Freigabe (DER) erblicher Krebsgentestergebnisse im EMR (129 von 186 angerufen, 101 auswertbar).",
-    result:"79,2% waren zufrieden/sehr zufrieden mit DER, 70,3% fanden es nicht verwirrend. 7,9% (8/101) berichteten erhöhte Sorge nach Ergebnissicht (5 mit pathogener Variante, 3 mit VUS). 41,6% bevorzugten EMR als Ergebnismitteilungsmodus; Zufriedenheit höher als bei anderen Disclosure-Methoden. Medianwert Alter 43 Jahre (26–83), 73,3% Frauen.",
-    transfer:"USA-Krebsgenetik-Programm; Ergebnis zur direkten Freigabe ist auf deutsches GenDG-Setting übertragbar (Beratungspflicht bleibt)."
-  },
-  {
-    journal:"Support Care Cancer", year:"2026", pmid:"43049798",
-    author:"Nguyen DG et al.", pubdate:"17.11.2026",
-    added:"18.11.2026",
-    title:"Pharmakogenetik-Panel bei Krebspatienten: 14% erhielten dosisanpassung, 35% hatten Medikament-Gen-Interaktionen",
-    sum:"Prospektive Single-Arm-Studie zu Auswirkung multigener Pharmakogenetik-Tests (CYP3A4/3A5, CYP2D6, CYP2C9/C19, CYP2B6, COMT, OPRM1, SLC6A4, HTR2A) auf Verordnungsverhalten bei Symptomkontrolle (70 Patienten mit Schmerz ≥4 oder Depression ≥3).",
-    result:"50% der 70 Patienten CYP2D6-Non-Normal-Metabolizer, 59% CYP2C19-Non-Normal. Von 66 auswertbaren Patienten erhielten 9 (14%, 95%-KI 7–24%) eine farmakogenetisch gelenkte Intervention (meist Opioid, Antidepressivum). Baseline und Endbesuch: 25 bzw. 22 Medikament-Gen-Interaktionen (35% bzw. 32%); 26 interruptive EHR-Alerts bei 10/56 Patienten (18%), überwiegend CYP2C19-PPI und CYP2C19/2B6-Antidepressivum.",
-    transfer:"USA-Oncology-Zentrum; Ergebnis Medikament-Gen-Interaktion klinisch relevant, aber Implementierungsmodell nicht direkt auf Deutschland übertragbar."
-  },
-  {
-    journal:"BMC Pulm Med", year:"2026", pmid:"43040285",
-    author:"Coulter E et al.", pubdate:"21.08.2026",
-    added:"16.11.2026",
-    title:"Mukoviszidose-Patienten: 71% erhielten keine genetische Beratung, 54% wünschen sie",
-    sum:"Gemischte Methoden-Befragung zu Bedarf und Wahrnehmung genetischer Beratung bei erwachsenen CF-Patienten (REDCap-Survey, 116 von 237 Respondenten, US-Zentrum).",
-    result:"72% der 116 Befragten (Alter 17–23 Jahre, 70,9% weiblich) hatten nie von genetischer Beratung gehört; 71% (82/116) erhielten sie nicht. Von den 82 Nicht-Beratenen würden 54% (44/82) genetische Beratung als moderat bis sehr hilfreich einschätzen. Wichtigste Themen: Einfluss CFTR-Modulator auf Fertilität/Schwangerschaft, Carrier-Screening für Partner und Familie.",
-    transfer:"USA-Einzelzentrum, zeigt aber Versorgungslücke, die in Deutschland (Beratungspflicht GenDG) ähnlich virulent ist."
+    journal:"Orphanet J Rare Dis", year:"2026", pmid:"43053038",
+    author:"Yafei Z et al.", pubdate:"24.08.2026",
+    added:"19.11.2026",
+    title:"AAV-Gentherapien bei seltenen Nierenkrankheiten: Stand und Aussichten",
+    sum:"Narrative Übersicht zu rekombinantem Adeno-assoziiertem Virus (rAAV) für Gentherapie bei monogenen Nierenkrankheiten, die zu Niereninsuffizienz führen.",
+    result:"rAAV-basierte Therapien zeigen ermutigende Ergebnisse in Studien; mehrere rAAV-Gentherapie-Produkte sind klinisch verfügbar; Hauptbarrieren sind kidney-spezifische Vektoren und Zielzellmechanismen wegen hohem Nierblutfluss und glomerulärer Barriere; Bedarf an weiterer Grundlagen- und klinischer Forschung.",
+    transfer:"Internationale Übersicht; relevante Vektortechnologie auch für deutsche Gentherapie-Entwicklung."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2336,7 +2327,7 @@ const RADAR_STAND = "19.11.2026";
 const RADAR_URL = "https://wissen.m-vf.de/ausschreibungen.html#genom";
 const RADAR_EIGENES = 19;
 const RADAR_ZUHAUSE = false;
-const RADAR_FRISTEN = [["2026-12-31", "2026-12-14"], [], ["2027-01-07", "2027-02-11"], [], [], [], [], ["2027-02-10"], ["2027-01-08"], [], [], ["2027-01-07", "2027-01-26", "2027-01-26"], ["2027-01-07", "2027-01-07", "2027-01-07", "2027-01-25", "2027-01-11", "2027-01-11", "2027-02-11", "2027-01-07"], ["2026-11-19", "2027-03-10"], ["2027-01-27", "2027-03-10"], [], [], ["2026-12-14", "2026-12-02", "2027-01-07"], ["2026-11-19", "2026-11-19"], ["2027-01-11", "2027-01-08", "2027-01-08", "2027-01-08"]];
+const RADAR_FRISTEN = [["2026-12-31"], [], ["2027-01-07", "2027-02-11"], [], [], [], [], [], ["2027-01-08"], [], [], ["2027-10-15", "2027-10-15", "2027-10-15", "2027-01-07", "2027-01-26", "2027-01-26", "2027-05-07"], ["2027-01-07", "2027-01-07", "2027-01-11", "2027-01-25", "2027-05-25", "2027-01-07", "2027-02-11", "2027-10-08"], ["2026-11-19", "2027-02-03", "2027-02-03", "2027-03-10"], ["2027-03-10", "2027-01-27"], [], [], ["2026-12-14", "2026-12-02", "2027-01-11", "2027-01-08", "2027-01-08", "2027-01-08", "2027-01-07"], ["2026-11-19", "2026-11-19"], ["2027-01-11", "2027-01-08", "2027-01-08", "2027-07-02", "2027-01-08"]];
 // === RADAR-BLOCK-ENDE ===
 
 // === ZULASSUNG-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
@@ -2350,7 +2341,7 @@ const ZUL_DIGA = 0;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "19.11.2026";
+const NEWS_STAND = "20.11.2026";
 const NEWS = [
   {titel:"Erbliche Krebsrisiken und Liquid Biopsy: Med Uni Graz zur Männergesundheit", datum:"2026-11-03", url:"https://www.monitor-versorgungsforschung.de/news/erbliche-krebsrisiken-und-liquid-biopsy-med-uni-graz-zur-maennergesundheit/"},
   {titel:"Versorgung von Frauen mit Seltenen Erkrankungen: Chiesi-Fachdialog", datum:"2026-10-26", url:"https://www.monitor-versorgungsforschung.de/news/versorgung-von-frauen-mit-seltenen-erkrankungen-chiesi-fachdialog/"},
