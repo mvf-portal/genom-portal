@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- erzeugt von hub-scripts/studienseiten.py -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://genom.m-vf.de/</loc><lastmod>2026-11-25</lastmod></url>
-<url><loc>https://genom.m-vf.de/studie/</loc><lastmod>2026-11-25</lastmod></url>
+<url><loc>https://genom.m-vf.de/</loc><lastmod>2026-11-26</lastmod></url>
+<url><loc>https://genom.m-vf.de/studie/</loc><lastmod>2026-11-26</lastmod></url>
 <url><loc>https://genom.m-vf.de/neue-studien.html</loc></url>
 <url><loc>https://genom.m-vf.de/newsletter.html</loc></url>
 <url><loc>https://genom.m-vf.de/ueber.html</loc></url>
+<url><loc>https://genom.m-vf.de/studie/43081533/</loc><lastmod>2026-11-26</lastmod></url>
+<url><loc>https://genom.m-vf.de/studie/43081529/</loc><lastmod>2026-11-26</lastmod></url>
+<url><loc>https://genom.m-vf.de/studie/43079939/</loc><lastmod>2026-11-26</lastmod></url>
+<url><loc>https://genom.m-vf.de/studie/43079697/</loc><lastmod>2026-11-26</lastmod></url>
+<url><loc>https://genom.m-vf.de/studie/43075883/</loc><lastmod>2026-11-26</lastmod></url>
+<url><loc>https://genom.m-vf.de/studie/43073118/</loc><lastmod>2026-11-26</lastmod></url>
 <url><loc>https://genom.m-vf.de/studie/43077658/</loc><lastmod>2026-11-25</lastmod></url>
 <url><loc>https://genom.m-vf.de/studie/43077647/</loc><lastmod>2026-11-25</lastmod></url>
 <url><loc>https://genom.m-vf.de/studie/43077244/</loc><lastmod>2026-11-25</lastmod></url>

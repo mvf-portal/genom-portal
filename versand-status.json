@@ -1,29 +1,31 @@
 {
  "hub": "Knowledge-Hub Genommedizin & Seltene Erkrankungen",
  "domain": "genom.m-vf.de",
- "datum": "2026-11-25",
- "stand": "terminiert",
- "titel": "MVF Genommedizin-Newsletter 25.11.2026",
- "betreff": "Neueste Studien - Genommedizin und Seltene Erkrankungen – 25. November 2026",
+ "datum": "2026-11-26",
+ "stand": "gestoppt",
+ "titel": "MVF Genommedizin-Newsletter 26.11.2026",
+ "betreff": "Neueste Studien - Genommedizin und Seltene Erkrankungen – 26. November 2026",
  "anzahl": 6,
  "pmids": [
-  "43077658",
-  "43077647",
-  "43077244",
-  "43076471",
-  "43073996",
-  "43072085"
+  "43081533",
+  "43081529",
+  "43079939",
+  "43079697",
+  "43075883",
+  "43073118"
  ],
- "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9100145",
- "termin_utc": "2026-11-25T09:00:00+00:00",
- "empfaenger": 1,
- "listengroesse": 5840,
- "beanstandungen": [],
+ "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9100164",
+ "termin_utc": null,
+ "empfaenger": 0,
+ "listengroesse": 5838,
+ "beanstandungen": [
+  "das Empfaengersegment ist leer - niemand wuerde die Ausgabe bekommen"
+ ],
  "aussortiert": [],
  "pool": {
   "geholt": 220,
-  "bekannt": 71,
-  "pool": 52,
+  "bekannt": 67,
+  "pool": 53,
   "gewaehlt": 6,
   "neu": 6
  },
