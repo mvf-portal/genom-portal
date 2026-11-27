@@ -2413,62 +2413,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "26. Nov. 2026, 05:01 Uhr";
+const SNAP_DATE = "27. Nov. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"J Genet Couns", year:"2026", pmid:"43079697",
-    author:"Ulenkate ELM et al.", pubdate:"Dez. 2026",
+    journal:"JCI Insight", year:"2026", pmid:"43097429",
+    author:"Khan A et al.", pubdate:"26.11.2026",
+    added:"26.11.2026",
+    title:"UMOD-Variante zeigt 5-fach erhöhtes Nierenkrankhheitsrisiko bei hohem Polygenic Score",
+    sum:"UK Biobank und Validierungskohorten (All of Us, MyCode) mit funktionalen Zellstudien: T62P-Träger mit hohem genomischem Polygenic Score (top Quintil) haben überproportional erhöhtes chronisches Nierenkrankheitsrisiko.",
+    result:"T62P-Träger im höchsten Polygenic Score-Quintil: OR 5,17 (95%-CI 2,94–9,08, p=1,0E-08) für chronische Nierenkrankheit gegenüber Bevölkerungsdurchschnitt. Penetranz wird deutlich durch Alter und polygenes Risiko modifiziert; funktionale Zellstudien zeigen intermediate ER-Stress und Reifungsdefekte.",
+    transfer:"UK Biobank und USA-Register, international großes Sample; Penetranz-Modulation durch Alterseffekte auch in Deutschland relevant"
+  },
+  {
+    journal:"Front Endocrinol (Lausanne)", year:"2026", pmid:"43094550",
+    author:"Huang W et al.", pubdate:"11.11.2026",
+    added:"26.11.2026",
+    title:"Kombiniertes PGT-M+PGT-A bei Thalassämie: höhere euploid-Embryo-Quoten ohne signifikanten Live-Birth-Vorteil",
+    sum:"Retrospektive Kohorte mit 2.028 Zyklen (723 Thalassämie PGT-M+PGT-A, 1.305 PGT-A-alone): Vergleich von Embryo-Aneuploidie und Reproduktionsergebnisse nach gezieltem Embryo-Transfer.",
+    result:"Kombiniertes Testen: adjustierte Ratio euploid Embryonen 1,14 (95%-CI 1,02–1,26; p=0,016) und euploid Anteil 1,09 (95%-CI 1,01–1,16; p=0,021). Wahrscheinlichkeit für ≥1 nutzbaren Embryo bei Alter 35–40 J. niedriger (aRR 0,88, 95%-CI 0,79–0,99; p=0,028). Live-Birth-Rate nach erstem Transfer: aRR 1,10 (95%-CI 0,99–1,24; p=0,084, nicht signifikant).",
+    transfer:"Chinesische Fertilitätsklinik-Daten, PGT-M international etabliert, direkter Bezug zu Präimplantationsdiagnostik in Deutschland"
+  },
+  {
+    journal:"Med Genet", year:"2026", pmid:"43095257",
+    author:"Hindricks J et al.", pubdate:"06.11.2026",
+    added:"26.11.2026",
+    title:"Genomisches Neugeborenenscreening: Machbarkeit mit bis zu 4 % Funden",
+    sum:"Deutsche Leitliniengruppe analysierte internationale Pilot-Studien zu DNA-Sequenzierung im Neugeborenenscreening und leitet Konsequenzen für nationale Implementierung ab.",
+    result:"Actionable Findings bei bis zu 4 % der Neugeborenen; kritische Faktoren sind Varianten-Interpretation, elterliche Akzeptanz (abhängig von Testvalidität und hochqualitativer Beratung), Infrastruktur-Anforderungen und Kostennutzen-Bewertung. Nationale Harmonisierung von Krankheitsauswahl, Consent-Modellen und Datengovernance erforderlich.",
+    transfer:"Deutsche Autor*innen, deutsches Gesundheitssystem, Gendiagnostikgesetz-konform"
+  },
+  {
+    journal:"BMC Bioinformatics", year:"2026", pmid:"43086645",
+    author:"Lüpken R et al.", pubdate:"04.11.2026",
     added:"25.11.2026",
-    title:"Ultraschnelle Genomsequenzierung im Kindes-ICU: Beratung unter Zeitdruck",
-    sum:"Qualitative Studie zu Erfahrungen von 11 Eltern und 6 Fachpersonen mit Nanopore-Gensequenzierung bei kritisch kranken Kindern (Türkei/Niederlande).",
-    result:"Patienten und Betreuer bewerteten ultraschnelle Tests als wertvoll für Klarheit und Entscheidungsfindung bei Unsicherheit; keine Regressionen in Bindung berichtet, aber adaptive Beratungsansätze unter Zeitdruck erforderlich – klare Erwartungen und emotionale Unterstützung zentral.",
-    transfer:"Niederlande, vergleichbare Versorgungsstruktur, zeigt Implementierungsmodel für Deutschland"
+    title:"MoleMap verkürzt Diagnostik-Turnaround-Zeit bei Exom-Sequenzierung um 10–60 ×",
+    sum:"Neue Bioinformatik-Methode für klinische Genomsequenzierung: Pre-Filtering von WGS-Daten auf target regions vor kostspieliger base-pair-genauer Alignment reduziert Rechenzeit und Datenmenge.",
+    result:"MoleMap identifiziert korrekte Mapping-Lokalisierungen vergleichbar mit Standard-Tools, läuft 3–8 × schneller als andere Mapper und 10–60 × schneller als volle Aligner auf 32 Threads; funktioniert auf Standard-Laptop. Proof-of-Concept an Patientin mit seltener Erkrankung.",
+    transfer:"Deutsche Forschungsinstitutionen (Charité, Deutsches Krebsforschungszentrum), unmittelbar auf Klinikroutine übertragbar"
   },
   {
-    journal:"Mol Genet Genomic Med", year:"2026", pmid:"43079939",
-    author:"Foruzandeh Z et al.", pubdate:"Dez. 2026",
-    added:"25.11.2026",
-    title:"Exomsequenzierung im iranischen Hochkonsanguinitäts-Kollektiv: Diagnostischer Ertrag 38,9 %",
-    sum:"WES bei 46 unverwandten iranischen Familien (67 Probanden) mit rezidivierendem Abort, Infertilität oder Verdacht auf Mendel-Erkrankung.",
-    result:"Diagnostischer Ertrag 38,9 % (7/18) bei klinisch eindeutigen Fällen, auf Familienebene 15,2 % (7/46); 92,2 % der pathogenen Varianten autosomales Rezessiv, Trägerfrequenz in der Gesamtkohorte 68,7 %; neuartige pathogene Varianten in TCTN2, COL9A3 und PIEZO1 identifiziert.",
-    transfer:"Hochkonsanguinität anders als Deutschland; Methode aber auf pränatale und reproduktive Beratung übertragbar"
+    journal:"Genes (Basel)", year:"2026", pmid:"43089322",
+    author:"Dong R et al.", pubdate:"23.10.2026",
+    added:"26.11.2026",
+    title:"Genetisches Testing bei pädiatrischen Epilepsien: 40 % Diagnostic Yield, Verzögerung oft &gt;12 Monate",
+    sum:"Retrospektive Kohortenstudie an 930 chinesischen Kindern mit Verdacht auf genetische Epilepsie: NGS-basiertes Panel-Testing mit Auswertung von Diagnostic Delay und klinischer Nutzbarkeit.",
+    result:"Diagnostic Yield 40,0% (373/930) über 122 Gene. Median Diagnostic Delay 3,0 Monate (IQR 0–18), aber 30,1% verzögert &gt;12 Monate. Entwicklungsverzögerung stärkster unabhängiger Prädiktor (aOR 3,00, p&lt;0,001). mTOR-Varianten höchste Therapieresistenz (54,2%). Von Diagnose-bestätigten Patienten: 31,1% genotype-informed treatment recommendations, 59,5% führten zu klinischen Managementänderungen, &gt;85% erreichten günstige Anfallskontrolle.",
+    transfer:"Chinesische Kohortendaten; pädiatrische Epilepsie-Genetik international vergleichbar, aber Wartezeiten-Problem auch in Deutschland zentral"
   },
   {
-    journal:"Trends Immunol", year:"2026", pmid:"43073118",
-    author:"Mastellos DC et al.", pubdate:"23.11.2026",
-    added:"23.11.2026",
-    title:"Waisenarzneimittel-Preise bedrohen gerechte Versorgung weltweit",
-    sum:"Stellungnahme von Experten zur Preisproblematik bei seltenen Erkrankungen am Beispiel Komplementtherapien, mit Forderung nach Reformen.",
-    result:"Dynamische Preisgestaltung mit Anerkennung öffentlicher Forschungsbeiträge, maßgeschneiderte Anreize nach klinischem Nutzen und regelmäßige Neubewertung werden als notwendig erachtet, um Zugang für Patienten in Entwicklungsländern zu sichern.",
-    transfer:"Internationale Perspektive auf deutsches Erstattungssystem für teure Gentherapien"
-  },
-  {
-    journal:"Int J Neonatal Screen", year:"2026", pmid:"43081533",
-    author:"Morris M et al.", pubdate:"17.11.2026",
-    added:"25.11.2026",
-    title:"CMV-Screening mit Hörtestung: 62,8 % laborbestätigt, 26,9 % mit Hörverlust",
-    sum:"Implementierungsbericht: Georgia integrierte CMV-Testung mit Hörtestung in bestehendes Neugeborenenscreening ab Oktober 2024; 103 initiale positive Ergebnisse in 18 Monaten.",
-    result:"Von 94 Neugeborenen in Workflow: 59 (62,8 %) CMV-positiv bestätigt, 33 (35,1 %) falsch positiv; 52 komplettiert audiologisches Follow-up, 14 (26,9 %) mit Hörverlust diagnostiziert; 89,7 % Abschluss der Auditory-Brainstem-Response-Untersuchung.",
-    transfer:"USA-Modell, aber Screening-Algorithmus auf deutsches NBS-System übertragbar"
-  },
-  {
-    journal:"Int J Neonatal Screen", year:"2026", pmid:"43081529",
-    author:"Rozevska M et al.", pubdate:"09.11.2026",
-    added:"25.11.2026",
-    title:"SCID-Screening in Lettland: erste baltische Erfahrung, 21 % Non-SCID-Lymphopenie",
-    sum:"Erste zwei Jahre flächendeckendes TREC/KREC-Screening für SCID in Lettland (2023–2025) bei 26.217 Neugeborenen (&gt;99 % Erfassung).",
-    result:"14 Neugeborene zur Spezialuntersuchung überwiesen, kein klassisches SCID, aber 3 Fälle (21 %) mit diagnostisch relevantem Non-SCID-T-Zellmangel (22q11.2-Deletion, Jacobsen-Syndrom) identifiziert; TREC- und KREC-Werte zeigten inverse Abhängigkeit vom Gestationsalter, was gestationsalter-spezifische Cut-offs erfordert.",
-    transfer:"Balticum/Osteuropa, etabliertes europäisches Modell, Schwellenwert-Kalibration auf Deutschland anwendbar"
-  },
-  {
-    journal:"Pol Merkur Lekarski", year:"2026", pmid:"43075883",
-    author:"Iasechko S et al.", pubdate:"2026",
-    added:"24.11.2026",
-    title:"Genetische Daten in Europa: Rechtsmodelle für Datenschutz und Forschung",
-    sum:"Vergleichende Analyse von Gesetzen zur genetischen Datennutzung in Frankreich, Deutschland, Österreich, Dänemark und Belgien mit Fallrecht des EuGH und EGMR.",
-    result:"Kombinationsmodell mit klaren Rechtsgrundlagen, Informed Consent, genetischer Beratung, ethischer Prüfung und Datensicherheit bietet beste Balance zwischen Individualrechten und verantwortungsvoller Genomdatennutzung in Forschung und Versorgung.",
-    transfer:"Europäische Vergleichsanalyse, direkt auf deutsches GenDG anwendbar"
+    journal:"Orphanet J Rare Dis", year:"2026", pmid:"43087027",
+    author:"Wang Y et al.", pubdate:"25.08.2026",
+    added:"26.11.2026",
+    title:"Gentherapie bei Methylmaloni-Azidämie: von AAV bis Lipid-Nanopartikel, klinische Translation beginnt",
+    sum:"Narrative Review zur Entwicklung von Gen- und Nukleinsäure-Therapien für MMUT-Mangel-MMA über 30 Jahre: vom Labor zu klinischen Trials mit AAV und LNP-mRNA-Delivery.",
+    result:"AAV8/9/44.9 und albumin-locus-genome-editing mit substanziellem präklinischem Fundament. mRNA-Therapie und leber-gerichtete Genomeditierung in klinischer Translation. Haupthindernisse: AAV-Immunotoxizität, neutralisierende Antikörper, Redosing-Barrieren, unvollständige extrahepische Korrektur, Lieferungssicherheit, Behandlungslast und Kosten. Langzeitsicherheit kritisch für pädiatrische progressive Lebervergrößerung.",
+    transfer:"Seltene Erkrankung (MMA) mit weltweit limitiertem Fallaufkommen; Review-basiert aber klinisch aktuell zur Gentherapie-Verfügbarkeit"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2479,7 +2479,7 @@ const RADAR_STAND = "26.11.2026";
 const RADAR_URL = "https://wissen.m-vf.de/ausschreibungen.html#genom";
 const RADAR_EIGENES = 19;
 const RADAR_ZUHAUSE = false;
-const RADAR_FRISTEN = [["2026-12-31", "2026-12-14", "2026-12-11"], ["2027-01-20"], ["2027-01-07", "2027-02-11"], [], [], [], [], [], [], [], [], ["2026-12-31", "2027-01-07", "2027-01-26", "2027-01-26", "2027-05-07"], ["2027-01-07", "2027-01-07", "2027-01-07", "2027-01-25", "2027-01-07", "2027-01-07", "2027-01-07", "2027-02-11"], [], [], [], [], ["2026-12-14", "2026-12-02", "2027-01-07"], [], ["2027-01-11", "2027-01-08", "2027-01-08", "2027-01-08"]];
+const RADAR_FRISTEN = [["2026-12-31"], ["2027-01-20"], ["2027-01-07", "2027-02-11"], [], [], [], [], [], [], [], [], ["2026-12-31", "2027-01-07", "2027-01-26", "2027-01-26", "2027-05-07"], ["2027-01-07", "2027-01-07", "2027-01-07", "2027-01-25", "2027-01-11", "2027-02-11", "2027-01-07", "2027-01-07"], [], [], [], [], ["2026-12-14", "2026-12-02", "2027-01-07"], [], ["2027-01-11", "2027-01-08", "2027-01-08", "2027-01-08"]];
 // === RADAR-BLOCK-ENDE ===
 
 // === ZULASSUNG-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
@@ -2493,7 +2493,7 @@ const ZUL_DIGA = 0;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "26.11.2026";
+const NEWS_STAND = "27.11.2026";
 const NEWS = [
   {titel:"Erbliche Krebsrisiken und Liquid Biopsy: Med Uni Graz zur Männergesundheit", datum:"2026-11-03", url:"https://www.monitor-versorgungsforschung.de/news/erbliche-krebsrisiken-und-liquid-biopsy-med-uni-graz-zur-maennergesundheit/"},
   {titel:"Versorgung von Frauen mit Seltenen Erkrankungen: Chiesi-Fachdialog", datum:"2026-10-26", url:"https://www.monitor-versorgungsforschung.de/news/versorgung-von-frauen-mit-seltenen-erkrankungen-chiesi-fachdialog/"},
